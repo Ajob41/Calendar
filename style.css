@@ -1,0 +1,284 @@
+body{
+    font-family: sans-serif;
+    cursor: pointer;
+    color: coral;
+    user-select: none;
+}
+
+span{
+    border-radius: 50%;
+    padding: 8px;
+    position: relative;
+    font-size: 19px;
+}
+.month{
+    display: none;
+    
+
+    
+}
+span:hover{
+
+    background-color: black;
+    width: 20px;
+
+}
+
+
+.main{
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    background-color: rgb(68, 40, 105);
+}
+
+.days{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 0px;
+    color: white;
+    background-color: coral;
+    border-radius: 1px;
+    pointer-events: none;
+}
+
+.jan{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.jan::after{
+    content: "Jan";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+
+.feb{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.feb::after{
+    content: "Feb";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+.March{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.March::after{
+    content: "Mar";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+
+
+.April{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.April::after{
+    content: "Apr";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+
+
+
+.May{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.May::after{
+    content: "May";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+
+.June{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.June::after{
+    content: "June";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+
+
+.July{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.July::after{
+    content: "July";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+
+
+.August{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.August::after{
+    content: "Aug";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+.Sep{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.Sep::after{
+    content: "Sep";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+
+
+.Sep{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.Sep::after{
+    content: "Sep";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+
+.Oct{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.Oct::after{
+    content: "Oct";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+.Nov{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.Nov::after{
+    content: "Nov";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+
+
+.Dec{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    position: relative;
+    left: 10px;
+    color: coral;
+}
+.Dec::after{
+    content: "Dec";
+    position: absolute;
+    top: 184px;
+    left: 10%;
+    font-size: 86px;
+    color: coral;
+}
+
+#prev{
+    color: coral;
+    position: absolute;
+    width: 10px;
+    top: 310px;
+    background-color: rgb(68, 40, 105);
+    left: 20px;
+    cursor: pointer;
+}
+
+
+#next{
+
+    color: white;
+    position: absolute;
+    width: 10px;
+    top: 310px;
+    background-color: rgb(68, 40, 105);
+    left: 440px;
+    cursor: pointer;
+    
+}
